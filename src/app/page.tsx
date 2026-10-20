@@ -37,7 +37,6 @@ export default function Home() {
       </header>
 
       <section className="hero" id="top">
-        <div className="hero-glow" />
         <div className="hero-copy">
           <h1>Your style.<br />Your statement.<em>Made personal.</em></h1>
           <p className="hero-text">Custom shirts, caps, tumblers and gifts from Christina Smiley in Texas, made with a little extra sparkle.</p>
@@ -50,7 +49,6 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <div className="roundel"><Image src="/images/smiley-logo.png" alt="" width={520} height={520} priority /></div>
-          <span className="spark spark-one">✦</span><span className="spark spark-two">✦</span><span className="spark spark-three">♥</span>
         </div>
       </section>
 
