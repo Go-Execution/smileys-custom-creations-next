@@ -88,7 +88,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="story-section"><div className="story-mark">♥</div><p className="eyebrow">The heart behind the sparkle</p><h2>Made by Christina,<br />with love</h2><span className="scribble gold" /><p>Smiley&apos;s Custom Creations is Christina Smiley&apos;s custom shop in Texas, making personalized shirts, caps and more.</p><blockquote>“We want everything to be just right before y&apos;all start shopping!”</blockquote><a href="#custom">More about Smiley&apos;s <ArrowRight size={17} /></a></section>
+      <section className="story-section"><div className="story-mark">♥</div><p className="eyebrow">The heart behind the sparkle</p><h2>Made by Christina,<br />with love</h2><span className="scribble" /><p>Smiley&apos;s Custom Creations is Christina Smiley&apos;s custom shop in Texas, making personalized shirts, caps and more.</p><blockquote>“Making you smile, one design at a time”</blockquote><a href="#custom">More about Smiley&apos;s <ArrowRight size={17} /></a></section>
 
       <section className="newsletter" id="newsletter"><div><p className="eyebrow dark"><Sparkles size={16} /> Keep in the loop</p><h2>Get first word on<br />new designs</h2><span className="scribble black" /></div><form onSubmit={subscribe}><label htmlFor="email">Email address</label><div className="email-row"><input id="email" type="email" placeholder="you@example.com" required /><button className="button button-black" type="submit">Sign up</button></div><p>By signing up you agree to get emails from Smiley&apos;s Custom Creations. Ask to be removed anytime.</p></form></section>
 
