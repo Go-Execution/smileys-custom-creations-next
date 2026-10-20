@@ -39,9 +39,9 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-glow" />
         <div className="hero-copy">
-          <p className="eyebrow"><Sparkles size={16} /> Made with a little extra sparkle</p>
           <h1>Your style.<br />Your statement.<em>Made personal.</em></h1>
           <p className="hero-text">Custom shirts, caps, tumblers and gifts from Christina Smiley in Texas, made with a little extra sparkle.</p>
+          <p className="eyebrow hero-eyebrow"><Sparkles size={16} /> Made with a little extra sparkle</p>
           <div className="hero-actions">
             <a className="button button-pink" href="#shop">Shop the collection <ArrowRight size={18} /></a>
             <a className="button button-outline" href="#custom">Request a custom design</a>

@@ -28,6 +28,7 @@ h1,h2,h3 { margin:0; }
 .hero h1 { font-size:clamp(49px,5.4vw,82px); }
 .hero h1 em { display:block; color:var(--pink); text-shadow:0 0 22px rgba(250,10,164,.33); }
 .hero-text { max-width:560px; margin:28px 0; color:#eee2e9; font-size:19px; line-height:1.65; }
+.hero-eyebrow { margin:-4px 0 22px; color:var(--pink); }
 .hero-actions { display:flex; flex-wrap:wrap; gap:13px; }
 .button { min-height:52px; padding:0 24px; display:inline-flex; align-items:center; justify-content:center; gap:10px; border-radius:999px; font-weight:800; border:2px solid transparent; transition:transform .2s, box-shadow .2s, background .2s; }
 .button:hover { transform:translateY(-2px); box-shadow:0 9px 22px rgba(250,10,164,.22); }
