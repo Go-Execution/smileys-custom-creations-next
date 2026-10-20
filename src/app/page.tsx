@@ -74,11 +74,11 @@ export default function Home() {
       </section>
 
       <section className="designs-section">
-        <div className="section-heading inverse"><p className="eyebrow"><Sparkles size={16} /> A few favorites</p><h2>Fresh off the<br />design table</h2><span className="scribble gold" /><p className="section-intro">Custom, unique, personal. Always a reason to smile. A few recent Smiley&apos;s designs.</p></div>
+        <div className="section-heading inverse"><p className="eyebrow design-eyebrow"><Sparkles size={16} /> A new favorite</p><h2>Fresh off the<br />design table</h2><span className="scribble" /><p className="section-intro">Custom, unique, personal. Always a reason to smile. A few recent Smiley&apos;s designs.</p></div>
         <div className="design-grid">
           {designs.map((design) => <article className={`design-card ${design.tone}`} key={design.title}><div className="design-art"><b>{design.tone === "rust" ? "RIVALRY" : design.tone === "bow" ? "TEXAS" : "GAME DAY"}</b><span>{design.tone === "rust" ? "RUNS DEEPER THAN OIL" : design.tone === "bow" ? "BOWS & BLING" : "GLITTER & GRIT"}</span></div><div className="design-card-footer"><div><small>{design.tag}</small><h3>{design.title}</h3></div><button aria-label={`View ${design.title}`}><ArrowRight size={18} /></button></div></article>)}
         </div>
-        <div className="design-cta"><p>Love a look? Christina can make one for you.</p><a href="#custom" className="button button-pink">Request a custom design</a></div>
+        <div className="design-cta"><p>Looking for something unique? Get in touch</p><a href="#custom" className="button button-pink">Request a custom design</a></div>
       </section>
 
       <section className="custom-section" id="custom">
