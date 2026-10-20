@@ -50,7 +50,6 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <div className="roundel"><Image src="/images/smiley-logo.png" alt="" width={520} height={520} priority /></div>
-          <Image className="hero-products" src="/images/hero-products.jpg" alt="Custom Smiley's shirt, tumbler, cap and gift" width={1536} height={1024} priority />
           <span className="spark spark-one">✦</span><span className="spark spark-two">✦</span><span className="spark spark-three">♥</span>
         </div>
       </section>
