@@ -65,11 +65,11 @@ export default function Home() {
       </section>
 
       <section className="shop-section" id="shop">
-        <div className="section-heading"><p className="eyebrow dark"><Sparkles size={16} /> Shop Smiley's</p><h2>Find your fit</h2><span className="scribble" /></div>
+        <div className="section-heading"><p className="eyebrow shop-eyebrow"><Sparkles size={16} /> Shop Smiley's</p><h2>Find your fit</h2><span className="scribble" /></div>
         <div className="category-grid">
-          <article className="category-card shirts"><div><span>01</span><h3>Shirts</h3><p>Tees with extra personality.</p><a href="#custom">Shop shirts <ArrowRight size={17} /></a></div><i>✦</i></article>
-          <article className="category-card caps"><div><span>02</span><h3>Caps</h3><p>Top it off your way.</p><a href="#custom">Shop caps <ArrowRight size={17} /></a></div><i>♥</i></article>
-          <article className="category-card custom"><div><span>03</span><h3>Made for you</h3><p>Your idea, brought to life.</p><a href="#custom">Start an order <ArrowRight size={17} /></a></div><i>✦</i></article>
+          <article className="category-card shirts"><div><span>01</span><h3>Shirts</h3><p>Tees with extra personality.</p><a href="#custom">Shop shirts <ArrowRight size={17} /></a></div></article>
+          <article className="category-card caps"><div><span>02</span><h3>Caps</h3><p>Top it off your way.</p><a href="#custom">Shop caps <ArrowRight size={17} /></a></div></article>
+          <article className="category-card drinkware"><div><span>03</span><h3>Drinkware &amp; gifts</h3><p>Sip, sparkle and make it yours.</p><a href="#custom">Shop drinkware <ArrowRight size={17} /></a></div></article>
         </div>
       </section>
 
