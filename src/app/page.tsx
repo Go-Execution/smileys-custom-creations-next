@@ -70,6 +70,7 @@ export default function Home() {
           <article className="category-card shirts"><div><span>01</span><h3>Shirts</h3><p>Tees with extra personality.</p><a href="#custom">Shop shirts <ArrowRight size={17} /></a></div></article>
           <article className="category-card caps"><div><span>02</span><h3>Caps</h3><p>Top it off your way.</p><a href="#custom">Shop caps <ArrowRight size={17} /></a></div></article>
           <article className="category-card drinkware"><div><span>03</span><h3>Drinkware &amp; gifts</h3><p>Sip, sparkle and make it yours.</p><a href="#custom">Shop drinkware <ArrowRight size={17} /></a></div></article>
+          <article className="category-card rugs"><div><span>04</span><h3>Rugs</h3><p>Welcome home with something personal.</p><a href="#custom">Shop rugs <ArrowRight size={17} /></a></div></article>
         </div>
       </section>
 
